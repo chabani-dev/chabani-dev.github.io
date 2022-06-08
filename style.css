@@ -1,0 +1,622 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  background-image: url("https://thumbs.dreamstime.com/b/fond-avec-des-nuages-sur-le-ciel-bleu-fond-de-vecteur-98493574.jpg");
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: clouds_animation 75s linear infinite;
+}
+@keyframes clouds_animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2122px 0;
+  }
+}
+.identite {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+img {
+  float: right;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px black;
+  width: 10%;
+  border: #882169 solid;
+  border-radius: 6px 6px 6px;
+}
+ul {
+  margin-right: 5px;
+  padding: 2px;
+}
+li {
+  list-style: none;
+  line-height: 26px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 15px;
+}
+h2,
+h1 {
+  text-shadow: 2px 2px 4px black;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0.2rem;
+}
+p.description {
+  text-align: center;
+  line-height: 43px;
+  font-family: "Cabin", sans-serif;
+  font-size: 2em;
+  color: #821a1a;
+}
+.marquee-rtl {
+  max-width: 30em; /* largeur de la fenêtre */
+  margin: 1em auto 2em;
+  overflow: hidden; /* masque tout ce qui dépasse */
+  white-space: nowrap; /* pas de passage à la ligne */
+}
+.marquee-rtl > :first-child {
+  animation-name: defilement-rtl; /* référence à la règle @keyframes mise en oeuvre */
+  animation-duration: 15s; /* valeur à ajuster suivant la longueur du message */
+  animation-iteration-count: infinite; /* boucle continue */
+  animation-timing-function: linear; /* pas vraiment utile ici */
+}
+@keyframes defilement-rtl {
+  0% {
+    transform: translate3d(0, 0, 0); /* position initiale à droite */
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0); /* position finale à gauche */
+  }
+}
+p {
+  line-height: 30px;
+  /* font-family: "Cabin", sans-serif; */
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+  font-size: italic;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(90, 24, 51);
+}
+h2:hover {
+  color: #c03b98;
+}
+h1:hover {
+  color: #882169;
+}
+/* a:focus {
+  background-color: #93136c;
+} */
+a:visited {
+  color: #f44336;
+}
+h1.name {
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+}
+strong {
+  color: #e52852;
+  pointer-events: fill;
+}
+
+#liseret,
+#contenu {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#liseret {
+  width: 6%;
+  margin-right: 3%;
+  margin-top: 8%;
+  height: 280vh;
+  background-image: url(images/lodyas.png);
+  border-radius: 10px;
+  margin-left: 17px;
+}
+
+#contenu {
+  width: 85%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+input#impression {
+  border: none;
+  width: 26%;
+  height: 5vh;
+  margin: 20px;
+  cursor: pointer;
+}
+/* --------- animation -----------------! */
+
+#SkillBox {
+  font-size: 20px;
+  font-family: "Indie Flower", cursive;
+  width: 95%;
+  height: auto;
+  margin: 40px auto;
+  background-color: #fff;
+  /* border: 1px solid #cdcdcd; */
+  padding: 10px;
+  border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+.SkillBar {
+  width: 90%;
+  height: 50px;
+  position: relative;
+  background: rgba(17, 17, 17, 0.3);
+  margin: 20px auto;
+  border-radius: 4px;
+}
+
+#Skill-HTML {
+  width: 100%;
+  animation: Animate-HTML 4s;
+  -webkit-animation: Animate-HTML 4s;
+  -moz-animation: Animate-HTML 4s;
+  -o-animation: Animate-HTML 4s;
+  height: 50px;
+  position: absolute;
+  background-color: #ea8564;
+  border-radius: 4px;
+}
+@keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-webkit-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-moz-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-o-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 100%;
+  }
+}
+#Skill-CSS {
+  animation: Animate-CSS 5s;
+  -webkit-animation: Animate-CSS 5s;
+  -moz-animation: Animate-CSS 5s;
+  -o-animation: Animate-CSS 5s;
+  width: 70%;
+  height: 50px;
+  position: absolute;
+  background-color: #55a69f;
+  border-radius: 4px;
+}
+@keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-moz-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-o-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+#Skill-Github {
+  animation: Animate-Github 5s;
+  -webkit-animation: Animate-Github 5s;
+  -moz-animation: Animate-Github 5s;
+  -o-animation: Animate-Github 5s;
+  width: 50%;
+  height: 50px;
+  position: absolute;
+  background-color: #99856d;
+  border-radius: 4px;
+}
+@keyframes Animate-Github {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-webkit-keyframes Animate-Github {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-moz-keyframes Animate-Github {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-o-keyframes Animate-Github {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+#Skill-JS {
+  animation: Animate-JS 4s;
+  -webkit-animation: Animate-JS 4s;
+  -moz-animation: Animate-JS 4s;
+  -o-animation: Animate-JS 4s;
+  width: 50%;
+  height: 50px;
+  position: absolute;
+  background-color: #c44e45;
+  border-radius: 4px;
+}
+@keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-webkit-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-moz-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-o-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+#Skill-Lucidchart {
+  animation: Animate-Lucidchart 4s;
+  -webkit-animation: Animate-Lucidchart 4s;
+  -moz-animation: Animate-Lucidchart 4s;
+  -o-animation: Animate-Lucidchart 4s;
+  width: 60%;
+  height: 50px;
+  position: absolute;
+  background-color: #5aa669;
+  border-radius: 4px;
+}
+@keyframes Animate-Lucidchart {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+@-webkit-keyframes Animate-Lucidchart {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+@-moz-keyframes Animate-Lucidchart {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+@-o-keyframes Animate-Lucidchart {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+#Skill-PHP {
+  animation: Animate-PHP 4s;
+  -webkit-animation: Animate-PHP 4s;
+  -moz-animation: Animate-PHP 4s;
+  -o-animation: Animate-PHP 4s;
+  width: 30%;
+  height: 50px;
+  position: absolute;
+  background-color: #970cc1;
+  border-radius: 4px;
+}
+@keyframes Animate-PHP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-webkit-keyframes Animate-PHP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-moz-keyframes Animate-PHP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-o-keyframes Animate-PHP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+#Skill-SQL {
+  animation: Animate-SQL 4s;
+  -webkit-animation: Animate-SQL 4s;
+  -moz-animation: Animate-SQL 4s;
+  -o-animation: Animate-SQL 4s;
+  width: 50%;
+  height: 50px;
+  position: absolute;
+  background-color: #8e930c;
+  border-radius: 4px;
+}
+@keyframes Animate-SQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-webkit-keyframes Animate-SQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-moz-keyframes Animate-SQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-o-keyframes Animate-SQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+#Skill-WordPress {
+  animation: Animate-WordPress 4s;
+  -webkit-animation: Animate-WordPress 4s;
+  -moz-animation: Animate-WordPress 4s;
+  -o-animation: Animate-WordPress 4s;
+  width: 50%;
+  height: 50px;
+  position: absolute;
+  background-color: #5a69a6;
+  border-radius: 4px;
+}
+@keyframes Animate-WordPress {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-webkit-keyframes Animate-WordPress {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-moz-keyframes Animate-WordPress {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-o-keyframes Animate-WordPress {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+#Skill-MVC {
+  animation: Animate-MVC 4s;
+  -webkit-animation: Animate-MVC 4s;
+  -moz-animation: Animate-MVC 4s;
+  -o-animation: Animate-MVC 4s;
+  width: 40%;
+  height: 50px;
+  position: absolute;
+  background-color: #23b1db;
+  border-radius: 4px;
+}
+@keyframes Animate-MVC {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+@-webkit-keyframes Animate-MVC {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+@-moz-keyframes Animate-MVC {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+@-o-keyframes Animate-MVC {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+#Skill-Symfony {
+  animation: Animate-Symfony 4s;
+  -webkit-animation: Animate-Symfony 4s;
+  -moz-animation: Animate-Symfony 4s;
+  -o-animation: Animate-Symfony 4s;
+  width: 50%;
+  height: 50px;
+  position: absolute;
+  background-color: #f8a51e;
+  border-radius: 4px;
+}
+@keyframes Animate-Symfony {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-webkit-keyframes Animate-Symfony {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-moz-keyframes Animate-Symfony {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-o-keyframes Animate-Symfony {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+.Skill-Area {
+  z-index: 1;
+  float: left;
+  /* position: absolute; */
+  margin-top: 15px;
+  margin-left: 15px;
+  text-shadow: none;
+  color: #fff;
+  /* font-family: Lato-Regular, sans-serif; */
+  font-size: 18px;
+}
+.PercentText {
+  z-index: 3;
+  position: relative;
+  padding-right: 15px;
+  margin-top: 15px;
+  float: right;
+  text-shadow: none;
+  color: #fff;
+  /* font-family: Lato-Regular, sans-serif; */
+  font-size: 18px;
+}
