@@ -1,20 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: medium;
-  background-image: url("https://thumbs.dreamstime.com/b/fond-avec-des-nuages-sur-le-ciel-bleu-fond-de-vecteur-98493574.jpg");
+  background-image: url("greyzz.png");
   margin: 0;
   padding: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  animation: clouds_animation 75s linear infinite;
-}
-@keyframes clouds_animation {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: -2122px 0;
-  }
 }
 .identite {
   display: flex;
@@ -59,20 +50,6 @@ p.description {
   overflow: hidden; /* masque tout ce qui dépasse */
   white-space: nowrap; /* pas de passage à la ligne */
 }
-.marquee-rtl > :first-child {
-  animation-name: defilement-rtl; /* référence à la règle @keyframes mise en oeuvre */
-  animation-duration: 15s; /* valeur à ajuster suivant la longueur du message */
-  animation-iteration-count: infinite; /* boucle continue */
-  animation-timing-function: linear; /* pas vraiment utile ici */
-}
-@keyframes defilement-rtl {
-  0% {
-    transform: translate3d(0, 0, 0); /* position initiale à droite */
-  }
-  100% {
-    transform: translate3d(-100%, 0, 0); /* position finale à gauche */
-  }
-}
 p {
   line-height: 30px;
   /* font-family: "Cabin", sans-serif; */
@@ -95,9 +72,7 @@ h2:hover {
 h1:hover {
   color: #882169;
 }
-/* a:focus {
-  background-color: #93136c;
-} */
+
 a:visited {
   color: #f44336;
 }
