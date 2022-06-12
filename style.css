@@ -56,21 +56,12 @@ a {
   text-decoration: none;
   font-size: italic;
 }
-a:hover {
-  text-decoration: none;
-  color: rgb(90, 24, 51);
-}
-h2:hover {
-  color: #c03b98;
-}
+h2,
 h1:hover {
-  color: #882169;
+  color: #c02b94;
+  cursor: pointer;
 }
-
-a:visited {
-  color: #f44336;
-}
-h1.name {
+.name {
   text-align: center;
   font-family: "Cabin", sans-serif;
 }
@@ -143,6 +134,7 @@ input#impression {
   -webkit-animation: Animate-HTML 4s;
   -moz-animation: Animate-HTML 4s;
   -o-animation: Animate-HTML 4s;
+  width: 80%;
   height: 50px;
   position: absolute;
   background-color: #ea8564;
@@ -153,7 +145,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 100%;
+    width: 80%;
   }
 }
 @-webkit-keyframes Animate-HTML {
@@ -161,7 +153,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 100%;
+    width: 80%;
   }
 }
 @-moz-keyframes Animate-HTML {
@@ -169,7 +161,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 100%;
+    width: 80%;
   }
 }
 @-o-keyframes Animate-HTML {
@@ -177,7 +169,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 100%;
+    width: 80%;
   }
 }
 #Skill-CSS {
@@ -271,7 +263,7 @@ input#impression {
   -webkit-animation: Animate-JS 4s;
   -moz-animation: Animate-JS 4s;
   -o-animation: Animate-JS 4s;
-  width: 50%;
+  width: 30%;
   height: 50px;
   position: absolute;
   background-color: #c44e45;
@@ -282,7 +274,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 50%;
+    width: 30%;
   }
 }
 @-webkit-keyframes Animate-JS {
@@ -290,7 +282,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 50%;
+    width: 30%;
   }
 }
 @-moz-keyframes Animate-JS {
@@ -298,7 +290,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 50%;
+    width: 30%;
   }
 }
 @-o-keyframes Animate-JS {
@@ -306,7 +298,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 50%;
+    width: 30%;
   }
 }
 #Skill-Lucidchart {
@@ -400,7 +392,7 @@ input#impression {
   -webkit-animation: Animate-SQL 4s;
   -moz-animation: Animate-SQL 4s;
   -o-animation: Animate-SQL 4s;
-  width: 50%;
+  width: 40%;
   height: 50px;
   position: absolute;
   background-color: #8e930c;
@@ -411,7 +403,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 50%;
+    width: 40%;
   }
 }
 @-webkit-keyframes Animate-SQL {
@@ -419,7 +411,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 50%;
+    width: 40%;
   }
 }
 @-moz-keyframes Animate-SQL {
@@ -427,7 +419,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 50%;
+    width: 40%;
   }
 }
 @-o-keyframes Animate-SQL {
@@ -435,7 +427,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 50%;
+    width: 40%;
   }
 }
 #Skill-WordPress {
@@ -529,7 +521,7 @@ input#impression {
   -webkit-animation: Animate-Symfony 4s;
   -moz-animation: Animate-Symfony 4s;
   -o-animation: Animate-Symfony 4s;
-  width: 50%;
+  width: 30%;
   height: 50px;
   position: absolute;
   background-color: #f8a51e;
@@ -540,7 +532,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 50%;
+    width: 30%;
   }
 }
 @-webkit-keyframes Animate-Symfony {
@@ -548,7 +540,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 50%;
+    width: 30%;
   }
 }
 @-moz-keyframes Animate-Symfony {
@@ -556,7 +548,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 50%;
+    width: 30%;
   }
 }
 @-o-keyframes Animate-Symfony {
@@ -564,7 +556,7 @@ input#impression {
     width: 10px;
   }
   to {
-    width: 50%;
+    width: 30%;
   }
 }
 .Skill-Area {
