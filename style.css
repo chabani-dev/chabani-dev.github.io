@@ -16,7 +16,7 @@ img {
   float: right;
   border: 1px solid black;
   box-shadow: 2px 2px 2px black;
-  width: 10%;
+  width: 40%;
   border: #882169 solid;
   border-radius: 6px 6px 6px;
 }
@@ -592,4 +592,14 @@ input#impression {
   color: #fff;
   /* font-family: Lato-Regular, sans-serif; */
   font-size: 18px;
+}
+
+/*---------- fichier PDF -----------  */
+
+.fichier-PDF {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  color: #821a1a;
 }
