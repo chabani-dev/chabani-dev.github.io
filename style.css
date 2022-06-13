@@ -89,13 +89,13 @@ strong {
 }
 
 #liseret {
-  width: 6%;
+  width: 5%;
   margin-right: 3%;
-  margin-top: 8%;
-  height: 238vh;
+  /* margin-top: 14%; */
+  height: 500vh;
   background-image: url(images/lodyas.png);
   border-radius: 10px;
-  margin-left: 17px;
+  margin-left: 20px;
 }
 
 #contenu {
