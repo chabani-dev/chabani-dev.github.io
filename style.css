@@ -1,0 +1,833 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  background-image: url("greyzz.png");
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.identite {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+.experience {
+  font-size: 26px;
+  font-family: cursive;
+  font-weight: 600;
+}
+img {
+  float: right;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px black;
+  width: 40%;
+  border: #882169 solid;
+  border-radius: 6px 6px 6px;
+}
+ul {
+  margin-right: 5px;
+  padding: 2px;
+}
+li {
+  list-style: none;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 24px;
+  /* margin: 20px; */
+  line-height: 40px;
+}
+.block-description {
+  text-shadow: 2px 2px 4px black;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 40px;
+}
+.block-description:hover {
+  color: #c02b94;
+  cursor: pointer;
+}
+h1 {
+  text-shadow: 2px 2px 4px black;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 40px;
+  /* line-height: 40px; */
+}
+p.description {
+  text-align: center;
+  line-height: 43px;
+  font-family: "Cabin", sans-serif;
+  font-size: 2em;
+  color: #821a1a;
+  margin: 20px;
+}
+p {
+  /* font-family: "Cabin", sans-serif; */
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+a {
+  text-decoration: none;
+  font-size: italic;
+}
+h1:hover {
+  color: #c02b94;
+  cursor: pointer;
+}
+.name {
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+}
+strong {
+  color: #e52852;
+  pointer-events: fill;
+}
+
+#liseret,
+#contenu {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#liseret {
+  width: 5%;
+  margin-right: 3%;
+  /* margin-top: 14%; */
+  height: 500vh;
+  background-image: url(images/lodyas.png);
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+#contenu {
+  width: 85%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+input#impression {
+  border: none;
+  width: 26%;
+  height: 5vh;
+  margin: 20px;
+  cursor: pointer;
+}
+/* --------- animation -----------------! */
+
+#SkillBox {
+  font-size: 20px;
+  font-family: "Indie Flower", cursive;
+  width: 95%;
+  height: auto;
+  margin: 40px auto;
+  background-color: #fff;
+  /* border: 1px solid #cdcdcd; */
+  padding: 10px;
+  border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+.SkillBar {
+  width: 90%;
+  height: 50px;
+  position: relative;
+  background: rgba(17, 17, 17, 0.3);
+  margin: 20px auto;
+  border-radius: 4px;
+}
+
+#Skill-HTML {
+  width: 100%;
+  animation: Animate-HTML 4s;
+  -webkit-animation: Animate-HTML 4s;
+  -moz-animation: Animate-HTML 4s;
+  -o-animation: Animate-HTML 4s;
+  width: 80%;
+  height: 50px;
+  position: absolute;
+  background-color: #ea8564;
+  border-radius: 4px;
+}
+@keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-webkit-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-moz-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-o-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+#Skill-CSS {
+  animation: Animate-CSS 5s;
+  -webkit-animation: Animate-CSS 5s;
+  -moz-animation: Animate-CSS 5s;
+  -o-animation: Animate-CSS 5s;
+  width: 70%;
+  height: 50px;
+  position: absolute;
+  background-color: #55a69f;
+  border-radius: 4px;
+}
+@keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-moz-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-o-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+#Skill-Microsoft {
+  animation: Animate-Microsoft 5s;
+  -webkit-animation: Animate-Microsoft 5s;
+  -moz-animation: Animate-Microsoft 5s;
+  -o-animation: Animate-Microsoft 5s;
+  width: 70%;
+  height: 50px;
+  position: absolute;
+  background-color: #c62266;
+  border-radius: 4px;
+}
+@keyframes Animate-Microsoft {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes Animate-Microsoft {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-moz-keyframes Animate-Microsoft {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-o-keyframes Animate-Microsoft {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+#Skill-Github {
+  animation: Animate-Github 5s;
+  -webkit-animation: Animate-Github 5s;
+  -moz-animation: Animate-Github 5s;
+  -o-animation: Animate-Github 5s;
+  width: 50%;
+  height: 50px;
+  position: absolute;
+  background-color: #99856d;
+  border-radius: 4px;
+}
+@keyframes Animate-Github {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-webkit-keyframes Animate-Github {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-moz-keyframes Animate-Github {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-o-keyframes Animate-Github {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+#Skill-JS {
+  animation: Animate-JS 4s;
+  -webkit-animation: Animate-JS 4s;
+  -moz-animation: Animate-JS 4s;
+  -o-animation: Animate-JS 4s;
+  width: 30%;
+  height: 50px;
+  position: absolute;
+  background-color: #c44e45;
+  border-radius: 4px;
+}
+@keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-webkit-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-moz-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-o-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+#Skill-Lucidchart {
+  animation: Animate-Lucidchart 4s;
+  -webkit-animation: Animate-Lucidchart 4s;
+  -moz-animation: Animate-Lucidchart 4s;
+  -o-animation: Animate-Lucidchart 4s;
+  width: 60%;
+  height: 50px;
+  position: absolute;
+  background-color: #5aa669;
+  border-radius: 4px;
+}
+@keyframes Animate-Lucidchart {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+@-webkit-keyframes Animate-Lucidchart {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+@-moz-keyframes Animate-Lucidchart {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+@-o-keyframes Animate-Lucidchart {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+#Skill-PHP {
+  animation: Animate-PHP 4s;
+  -webkit-animation: Animate-PHP 4s;
+  -moz-animation: Animate-PHP 4s;
+  -o-animation: Animate-PHP 4s;
+  width: 30%;
+  height: 50px;
+  position: absolute;
+  background-color: #970cc1;
+  border-radius: 4px;
+}
+@keyframes Animate-PHP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-webkit-keyframes Animate-PHP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-moz-keyframes Animate-PHP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-o-keyframes Animate-PHP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+#Skill-SQL {
+  animation: Animate-SQL 4s;
+  -webkit-animation: Animate-SQL 4s;
+  -moz-animation: Animate-SQL 4s;
+  -o-animation: Animate-SQL 4s;
+  width: 40%;
+  height: 50px;
+  position: absolute;
+  background-color: #8e930c;
+  border-radius: 4px;
+}
+@keyframes Animate-SQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+@-webkit-keyframes Animate-SQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+@-moz-keyframes Animate-SQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+@-o-keyframes Animate-SQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+#Skill-WordPress {
+  animation: Animate-WordPress 4s;
+  -webkit-animation: Animate-WordPress 4s;
+  -moz-animation: Animate-WordPress 4s;
+  -o-animation: Animate-WordPress 4s;
+  width: 50%;
+  height: 50px;
+  position: absolute;
+  background-color: #5a69a6;
+  border-radius: 4px;
+}
+@keyframes Animate-WordPress {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-webkit-keyframes Animate-WordPress {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-moz-keyframes Animate-WordPress {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-o-keyframes Animate-WordPress {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+#Skill-MVC {
+  animation: Animate-MVC 4s;
+  -webkit-animation: Animate-MVC 4s;
+  -moz-animation: Animate-MVC 4s;
+  -o-animation: Animate-MVC 4s;
+  width: 40%;
+  height: 50px;
+  position: absolute;
+  background-color: #23b1db;
+  border-radius: 4px;
+}
+@keyframes Animate-MVC {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+@-webkit-keyframes Animate-MVC {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+@-moz-keyframes Animate-MVC {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+@-o-keyframes Animate-MVC {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+#Skill-Symfony {
+  animation: Animate-Symfony 4s;
+  -webkit-animation: Animate-Symfony 4s;
+  -moz-animation: Animate-Symfony 4s;
+  -o-animation: Animate-Symfony 4s;
+  width: 30%;
+  height: 50px;
+  position: absolute;
+  background-color: #f8a51e;
+  border-radius: 4px;
+}
+@keyframes Animate-Symfony {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-webkit-keyframes Animate-Symfony {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-moz-keyframes Animate-Symfony {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-o-keyframes Animate-Symfony {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+#Skill-Figma {
+  animation: Animate-Figma 4s;
+  -webkit-animation: Animate-Figma 4s;
+  -moz-animation: Animate-Figma 4s;
+  -o-animation: Animate-Figma 4s;
+  width: 30%;
+  height: 50px;
+  position: absolute;
+  background-color: #5c3b06;
+  border-radius: 4px;
+}
+@keyframes Animate-Figma {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-webkit-keyframes Animate-Symfony {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-moz-keyframes Animate-Symfony {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-o-keyframes Animate-Symfony {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+#Skill-Trello {
+  animation: Animate-Trello 4s;
+  -webkit-animation: Animate-Trello 4s;
+  -moz-animation: Animate-Trello 4s;
+  -o-animation: Animate-Trello 4s;
+  width: 30%;
+  height: 50px;
+  position: absolute;
+  background-color: #21d02c;
+  border-radius: 4px;
+}
+@keyframes Animate-Trello {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-webkit-keyframes Animate-Trello {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-moz-keyframes Animate-Trello {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-o-keyframes Animate-Trello {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+
+#Skill-React-js {
+  animation: Animate-React-js 4s;
+  -webkit-animation: Animate-React-js 4s;
+  -moz-animation: Animate-React-js 4s;
+  -o-animation: Animate-React-js 4s;
+  width: 30%;
+  height: 50px;
+  position: absolute;
+  background-color: #1dc2cb;
+  border-radius: 4px;
+}
+@keyframes Animate-React-js {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-webkit-keyframes Animate-React-js {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-moz-keyframes Animate-React-js {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-o-keyframes Animate-React-js {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 30%;
+  }
+}
+.Skill-Area {
+  z-index: 1;
+  float: left;
+  /* position: absolute; */
+  margin-top: 15px;
+  margin-left: 15px;
+  text-shadow: none;
+  color: #fff;
+  /* font-family: Lato-Regular, sans-serif; */
+  font-size: 18px;
+}
+.PercentText {
+  z-index: 3;
+  position: relative;
+  padding-right: 15px;
+  margin-top: 15px;
+  float: right;
+  text-shadow: none;
+  color: #fff;
+  /* font-family: Lato-Regular, sans-serif; */
+  font-size: 18px;
+}
+
+/*---------- fichier PDF -----------  */
+
+.fichier-PDF-CV {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  font-size: 20px;
+}
+.fichier-PDF-lettreMotivation {
+  text-align: right;
+  margin: -52px;
+  padding: 20px;
+}
+/*---------- les langues -----------  */
+.block-langues {
+  text-shadow: 2px 2px 4px black;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 40px;
+}
+.block-langues:hover {
+  color: #c02b94;
+  cursor: pointer;
+}
+cite {
+  color: red;
+  font-size: 2em;
+  display: flex;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.anglais {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.francais {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.Arabes {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.certificat {
+  margin: 40px;
+}
