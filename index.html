@@ -1,238 +1,179 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
-      <title>CHABANI ZARGA</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-   <!------- identité ---------->
-      <div id="liseret"></div>
-      <div id="contenu">
-      <p class="identite">
-        <a href="images/identite.jpg" target="_blank"
-          ><img src="images/mini_photo.jpg" alt="photo d'identité Chabani Zarga"
-        /></a>
-      </p>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-      <h1 class="name">Chabani Zarga </h1>
-	    <div class="marquee-rtl">
-      <p class="description">Développeuse Web & Web mobile <br> Full Stack Junior</p>
-      </div>
-
-      <!--------- fichies en pdf ----------->
-
-      <div class="fichier-PDF-CV"><p> Ouvrir un fichier PDF
-      <a href="CV-stage-web.pdf" target="_blank" width="100%" height="500px">CV </a>
-      </p></div>
-       <div class="fichier-PDF-lettreMotivation"><p> Lettre de Motivation 
-              <a href="Lettre-de-Motivation-Stage.pdf" target="_blank" width="100%" height="500px">Lettre de Motivation</a>
-      </p></div>
-
-       <!------les Expériences -------->
-      <section>
-        <h1 class="block-description"> Expériences</h1>
-        <div class="experience">Conception et réalisation  de  plateformes  web  :</div>
-        <p>-	gestion du personnel pour un centre technique de la CPAM (WordPress).</p>
-        <p>-	gestion d’offres de location de vacances entre particuliers (Symfony)</p>
-        <p>Tous ces projets m’ont donné envie d'avoir une expérience pratique approfondie dans le domaine de la programmation.</p>
-      <ul>
-        <li>✅  Analyse des besions client</li>
-        <li>✅  Analyse UML</li>
-        <li>✅  Céation d'une maquette sur figma</li>
-        <li>✅  Mise en place du projet sous Symfony</li>
-        <li>✅  Gestion d'une BDD sous MySQL</li>
-        <li>✅  Mise en place du Front sous Twing</li>
-        <li>✅  Mise en place de la gestion utilisaturs et de la gestion administrative du site </li>
-        <li>✅  Bonne maîtrise de HTML, CSS et JavaScript (modification du HTML)</li>
-   </ul>
-
-    <!--------les Autres Expériences ---------------->
-   <h2 class="block-description">Autres Expériences</h2>
-     <div class="Other-experiences">
-        <ul>
-         
-        <li class="row"><span> 2016 à  2020 </span> <strong>  Animatrice en parfumerie,</strong> 
-            dans plusieurs enseignes de luxe qui m'ont permis d'apprendre des compétences relationnelles.
-          </li>
-          </ul>
-   </div>
-   <div class="Other-experiences">
-    <ul>
-      
-         <li><span>2001 à 2002</span><strong> Chargée du service gestion des stocks</strong> dans une société pharmaceutique IVPP à Oran.
-                  </li>
-    </ul>
-        
-   </div>
-          <div class="Other-experiences">
-            <ul>
-              
-                <li><span>1999 à 2001</span> <strong>Chargée du service informatique</strong> au sein de l’organisme de développement de la steppe du ministère algérien de l'Agriculture.
-          </li>
-            </ul>
-       </div>
-      </section>
-         <!------les Compétences -------->
-      <section>
-        <p id="SkillBox">
-          <h2 class="block-description">Mes compétences</h2>
-          
-           <!-- --  % pour HTML ----->
-          <div class="SkillBar">
-            <div id="Skill-HTML">
-              <span class="Skill-Area">HTML</span>
-              <span class="PercentText">80%</span>
-            </div>
-          </div>
-        <!-- --  % pour CSS --- -->
-          <div class="SkillBar">
-            <div id="Skill-CSS">
-              <span class="Skill-Area">CSS</span>
-              <span class="PercentText">70%</span>
-            </div>
-          </div>
-  <!-- --  % pour MICROSOFT OFFICE  --- -->
-          <div class="SkillBar">
-            <div id="Skill-Microsoft">
-              <span class="Skill-Area">Microsoft-office</span>
-              <span class="PercentText">70%</span>
-            </div>
-          </div>
-           <!-- --  % pour Lucidchart ----->
-           <div class="SkillBar">
-            <div id="Skill-Lucidchart">
-              <span class="Skill-Area">Lucidchart</span>
-              <span class="PercentText">60%</span>
-            </div>
-          </div>
-            <!-- --  % pour GitHub ----->
-          <div class="SkillBar">
-            <div id="Skill-Github">
-              <span class="Skill-Area">GitHub </span>
-              <span class="PercentText">50%</span>
-            </div>
-          </div>
-           <!-- --  % pour WordPress ----->
-           <div class="SkillBar">
-            <div id="Skill-WordPress">
-              <span class="Skill-Area">WordPress</span>
-              <span class="PercentText">50%</span>
-            </div>
-          </div>
-           <!-- --  % pour MySQL & UML ----->
-           <div class="SkillBar">
-            <div id="Skill-SQL">
-              <span class="Skill-Area">MySQL & UML </span>
-              <span class="PercentText">40%</span>
-            </div>
-          </div>
-           <!-- --  % pour MVC ----->
-           <div class="SkillBar">
-            <div id="Skill-MVC">
-              <span class="Skill-Area">MVC </span>
-              <span class="PercentText">40%</span>
-            </div>
-          </div>
-           <!-- --  % pour Javascript ----->
-          <div class="SkillBar">
-            <div id="Skill-JS">
-              <span class="Skill-Area">Javascript</span>
-              <span class="PercentText">30%</span>
-            </div>
-          </div>
-           <!-- --  % pour PHP ----->
-            <div class="SkillBar">
-            <div id="Skill-PHP">
-              <span class="Skill-Area">PHP </span>
-              <span class="PercentText">30%</span>
-            </div>
-          </div>
-           <!-- --  % pour Symfony ----->
-          <div class="SkillBar">
-            <div id="Skill-Symfony">
-              <span class="Skill-Area">Symfony</span>
-              <span class="PercentText">30%</span>
-            </div>
-          </div>
-          <!-- --  % pour Figma ----->
-          <div class="SkillBar">
-            <div id="Skill-Figma">
-              <span class="Skill-Area">Figma</span>
-              <span class="PercentText">30%</span>
-            </div>
-          </div>
-          <!-- --  % pour Trello ----->
-          <div class="SkillBar">
-            <div id="Skill-Trello">
-              <span class="Skill-Area">Trello</span>
-              <span class="PercentText">30%</span>
-            </div>
-          </div>
-           <!-- --  % pour React-js ----->
-          <div class="SkillBar">
-            <div id="Skill-React-js">
-              <span class="Skill-Area">React-js</span>
-              <span class="PercentText">20%</span>
-            </div>
-          </div>
-         
-       </section>
-
-             <!--------les formations ----------->
-      <section>
-        <h2 class="block-description">Mes formations</h2>
-        <ul>
-          <li>✅ Actuellement en formation à titre de développeur de logiciels Web/Web mobiles 
-            16 mois : &nbsp;ESRP &nbsp; Beauvoir
-          </li>
-          <li>✅ <strong>09 février 2021 au 31 août 2021</strong> : Formation de Développeur Web chez OpenClassrooms:<br><a class="certificat" href="https://openclassrooms.com/fr/dashboard/courses#courses-taken" target="_blank">Certificats OpenClassrooms</a></li>
-          <li>✅ <strong>07 juin 2019 </strong>: Certificat d'excellence délivré par Service Paris-Aéroports.</li>
-          <li class="row">✅ <strong>09 mai 2001 </strong> : Certificat professionnel dans la maintenance informatique,spécialisée dans la maintenance d'ordinateurs <strong>hard & soft</strong> A l'ECOLE WINNER SOFTWARE  à Oran .
-          </li>
-          <li>✅ <strong>03 janvier 1999 </strong> : Technicien informatique spécialisé dans la programmation et la gestion des stocks avec le langage Basic et Pascal avec mention excellent <em>au Center for Professional Training en Algérie.</em> 
-          </li>
-
-            <!----------les langues -------------->
-          <h3 class="block-langues">Les langues</h3>
-
-          <div class="anglais">
-          <p>Anglais</p><cite>☆★★★</cite></div>
-           <div class="francais">
-               <p>Francais</p><cite>☆☆★★★★</cite></div>
-           <div class="Arabes">
-             <p>Arabes</p><cite> ☆☆★★★★</cite></div>
-
-
-                <!----------les langues -------------->
-          <h3 class="block-langues">Centres d’intêret</h3>
-
-          <div class="hobbies">
-          <ul>
-            <li>Passionnée de voyages et de découvertes culinaires.</li>
-            <li>Couture Mode Et Création .</li>
-          </ul> 
-         </div>
-</div>
-      </section>
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body cz-shortcut-listen="true">
+    <div class="bgimg-1">
+            <nav class="navbar navbar-expand-xxl header">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#part1">expérience professionnelle</a>
+                            </li>
+                            <li class="nav-item ms-5">
+                                <a class="nav-link active" aria-current="page" href="#part2">autres expériences</a>
+                            </li>
+                            <li class="nav-item ms-5">
+                                <a class="nav-link active" aria-current="page" href="#part3">compétences</a>
+                            </li>
+                        </ul>
+                        <div class="text-end">
+                            <a href="" onClick="javascript:document.location.reload(true)">Changer les images</a>
+                        </div>
+                                </div>
+                </div>
+            </nav>
+        <div class="caption">
+            <span class="titre">Bienvenue</span>
+        </div>
     </div>
-    <form>
-      <input
-        id="impression"
-        name="impression"
-        type="button"
-        onclick="imprimer_page()"
-        value="Imprimer cette page"
-      />
-    </form>
-    
-    <script type="text/javascript">
-      function imprimer_page() {
-        window.print();
-      }
-    </script>
-  </body>
+    <div class="experience color0">
+        <h1>CHABANI ZARGA</h1>
+        <p>Après avoir terminé ma formation de développeur logiciel spécialisé dansles applications Web et mobiles au centre de réadaptation professionnelleBeauvoir, je suis actuellement en train de suivre le parcours de validationd'un Certificat de Développeur d'Applications (CDA).</p>
+    </div>
+    <div id="part1" class="bgimg-2">
+        <div class="caption">
+            <span class="titre">Mon expérience professionnelle</span>
+        </div>
+    </div>
+    <div class="main_part">
+        <div class="experience color1">
+            <ul>
+                <li class="mb-5">
+                    <h3>Janvier-février 2022  - Implémentation d'une plateforme de gestion des congés</h3>
+                    <p>Projet mis en place dans le cadre d'un partenariat avec le CTI Melun (Centre de traitement de la CPAM)</p>
+                    <ul>
+                        <li>Utilisation de WordPress</li>
+                        <li>création et gestion de templates personnalisés en accord avec le thème</li>
+                        <li>utilisation de plugins pour s'adapter aux besoins du client</li>
+                    </ul>
+                </li>
+                <li class="mb-5">
+                    <h3>Juin-septembre 2022 - Création d'un site vitrine </h3>
+                    <p>Projet mis en place dans le cadre d'un stage au sein de l'IFOC école à Pantin</p>
+                    <ul>
+                        <li>Utilisation de Symfony</li>
+                        <li>projet développé en groupe, dans le respect de la méthode Agile</li>
+                        <li>création de la vitrine de école</li>
+                        <li>mise en place d'un système de relation entre centre de formationet les étudiants sur le site</li>
+                        <li>La mise en place d'un système de différenciation des offres de formation </li>
+                        <li>gestion simplifiée de la carte, des financement et contact et candidature</li>
+                    </ul>
+                </li>
+
+                <li class="mb-5">
+                    <h3>Octobre-novembre 2022 -L'amélioration d'un site web existant <br>appelé "Picto-Picto"</h3>
+                    <p>Projet mis en place dans le cadre d'un stage au sein de l'université de Cergy : ECAM-EPMI en collaboration avec M. Moncef BENKHERRAT</p>
+                    <ul>
+                        <li>Utilisation de Symfony</li>
+                        <li>Elle propose un système de drag and drop de pictogrammes pour la construction de phrases simples.</li>
+                        <li>Améliorer le CSS de la page échange pour les sous-catégories et les pictogrammes</li>
+                        <li>L’ajout des nouveaux  catégories de pictogramme ainsi que les images correspondantes</li>
+                        <li>Restructurer la base de données.
+</li>
+                        <li>Corriger les bugs dans la  page  dialogue et échanges</li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="#">Revenir en haut</a>
+        </div>
+    </div>
+    <div id="part2" class="bgimg-3">
+        <div class="caption">
+            <span class="titre">Autres expériences</span>
+        </div>
+    </div>
+    <div class="main_part">
+        <div class="experience color2">
+            <ul>
+                <li class="mb-5">
+                    <h3>Animatrice en parfumerie</h3>
+                    <p>J'ai occupé des postes d'animatrice dans des marques prestigieuses de parfumerie, telles que Guerlain.</p>
+                    <ul>
+                        <li>Gestion du stock</li>
+                        <li>Créer de l’émotion autour de l’expérience client,</li>
+                        <li>Orienter sur l’utilisation du produit</li>
+                        <li>Gestion de la politique du magasin</li>
+                    </ul>
+                </li>
+                <li class="mb-5">
+                    <h3>Gestion du stock</h3>
+                    <p>Mon rôle était de superviser la gestion des stocks au sein d'une entreprise pharmaceutique en Algérie.</p>
+                    <ul>
+                        <li>Gestion du magasin</li>
+                        <li>La gestion des conflits entre les pharmaciens et les fournisseurs.</li>
+                        <li>Gestion des plannings</li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="#">Revenir en haut</a>
+        </div>
+    </div>
+    <div id="part3" class="bgimg-4">
+        <div class="caption">
+            <span class="titre">Mes compétences</span>
+        </div>
+    </div>
+    <div class="main_part">
+        <div class="experience color3">
+            <div>
+                <i class="fa-solid fa-battery-full"></i>
+                <span> - HTML/CSS</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-battery-full"></i>
+                <span> - JavaScript</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-battery-full"></i>
+                <span> - PHP</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-battery-full"></i>
+                <span> - SQL</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-battery-three-quarters"></i>                <span> - Symfony</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-battery-quarter"></i>
+                <span> - React</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-battery-three-quarters"></i>                <span> - Java</span>
+            </div>
+            <a href="#">Revenir en haut</a>
+        </div>
+    </div>
+    <div class="bgimg-1">
+        <div class="caption">
+            <span class="titre">Merci d'avoir consulté ce site, à bientôt.</span>
+        </div>
+        <div class="footer">
+            <div>
+                Ces images sont générées aléatoirement. Vous pouvez les modifier en <a href="" onClick="javascript:document.location.reload(true)">rafraîchissant cette page</a>
+            </div>
+            <div>&copy CHZA-2023 <i>Thank you.</i><p><a href="https://github.com/ESRP-Beauvoir-DWWM-Web3/ESRP-Beauvoir-DWWM-Web3.github.io" target="_blank">Voir le code</p></div>
+            <div><a href="#">Revenir en haut</a></div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
 </html>
